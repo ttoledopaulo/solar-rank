@@ -1,50 +1,54 @@
-## 🌞 Solar Rank
+# 🌞 Solar Rank
 
-## Projeto desenvolvido como parte da disciplina Big Data, ministrada pelo Professor Vinícius, no período 2025.2
-### Participantes: Paulo Terror, Danielle Carvalho, Douglas Lira, Geovanna Melo e Lorenzo Lopes.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg?logo=pandas)](https://pandas.pydata.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4B8BBE.svg?logo=plotly)](https://seaborn.pydata.org/)
+[![Prefect](https://img.shields.io/badge/Prefect-Orchestration-18BFFF.svg?logo=prefect)](https://www.prefect.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## 
-Análise de eficiência da geração solar municipal com foco em priorização de investimentos, utilizando Pandas para processamento de dados, Seaborn para visualização e Apache Prefect para orquestração dos fluxos de análise.
+### 🏫 Projeto desenvolvido como parte da disciplina **Big Data**, ministrada pelo **Professor Vinícius**, no período **2025.2**
+
+**Participantes:** Paulo Terror, Danielle Carvalho, Douglas Lira, Geovanna Melo e Lorenzo Lopes.
+
+---
+
+## 🧠 Visão Geral
+
+Análise de eficiência da geração solar municipal com foco em **priorização de investimentos**, utilizando **Pandas** para processamento de dados, **Seaborn** para visualização e **Prefect** para **orquestração de pipeline**.
+
+---
 
 ## 📘 Descrição do Projeto
 
-O Solar Rank tem como objetivo processar e analisar dados de geração solar municipal, criando uma métrica de eficiência baseada na relação entre a geração (MWh) e a capacidade instalada (kW).
-A partir dessa métrica, as cidades são ranqueadas e classificadas conforme sua eficiência, permitindo identificar quais devem ser prioritárias para investimento em energia solar.
+O **Solar Rank** tem como objetivo processar e analisar dados de geração solar municipal, criando uma **métrica de eficiência** baseada na relação entre a **geração (MWh)** e a **capacidade instalada (kW)**.  
+A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme sua eficiência, permitindo identificar quais devem ser **prioritárias para investimento em energia solar**.
+
+---
 
 ## ⚙️ Tecnologias Utilizadas
 
-🐍 Python 3.10+ — linguagem principal do projeto
+- 🐍 **Python 3.10+** — linguagem principal do projeto  
+- 🧮 **Pandas** — tratamento, cálculo e manipulação dos dados  
+- 📊 **Seaborn** — criação de gráficos e visualizações de desempenho  
+- 🧠 **Prefect** — orquestração dos fluxos de análise (pipelines)  
+- 📁 **CSV** — formato da base de dados de entrada (`energia_solar.csv`)
 
-🧮 Pandas — tratamento, cálculo e manipulação dos dados
-
-📊 Seaborn — criação de gráficos e visualizações de desempenho
-
-🧠 Prefect — orquestração dos fluxos de análise
-
-📁 CSV — formato da base de dados de entrada (energia_solar.csv)
+---
 
 ## 📈 Métricas Calculadas
 
-Eficiência = geracao_solar_mwh / capacidade_kw
+- **Eficiência** = `geracao_solar_mwh / capacidade_kw`  
+- **Classificação por Regra:**  
+  - Eficiência > 0.12 → `Prioritária`  
+  - Caso contrário → `Não prioritária`
 
-Classificação por Regra:
-
-Eficiência > 0.12 → Prioritária
-
-Caso contrário → Não prioritária
+---
 
 ## 📊 Resultados Esperados
 
-Geração de ranking das 3 cidades mais eficientes
+- Geração de **ranking das 3 cidades mais eficientes**  
+- Visualização gráfica das cidades com melhor desempenho  
+- Tabela consolidada com classificação de priorização  
 
-Visualização gráfica das cidades com melhor desempenho
-
-Tabela consolidada com classificação de priorização
-
-## 🚀 Execução
-
-Instale as dependências:
-
-pip install pandas seaborn prefect
-
-Visualize os resultados gerados na pasta /output ou diretamente no notebook.
+---
