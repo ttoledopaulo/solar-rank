@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ---
 
-### 🏫 Projeto desenvolvido como parte da disciplina de **Big Data**, ministrada pelo **Professor Vinícius**, no período **2025.2**
+### 🏫 Projeto desenvolvido como **forma de avaliação** da disciplina de **Big Data**, ministrada pelo **Professor Vinícius**, no período **2025.2**
 
 ---
 
