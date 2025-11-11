@@ -7,9 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ---
 
-### 🏫 Projeto desenvolvido como parte da disciplina **Big Data**, ministrada pelo **Professor Vinícius**, no período **2025.2**
-
-**Participantes:** Paulo Terror, Danielle Carvalho, Douglas Lira, Geovanna Melo e Lorenzo Lopes.
+### 🏫 Projeto desenvolvido como parte da disciplina de **Big Data**, ministrada pelo **Professor Vinícius**, no período **2025.2**
 
 ---
 
