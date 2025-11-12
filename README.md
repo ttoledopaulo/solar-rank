@@ -17,10 +17,13 @@ Análise de eficiência da geração solar municipal com foco em **priorização
 
 ---
 
+---
+
 ## 📘 Descrição do Projeto
 
 O **Solar Rank** tem como objetivo processar e analisar dados de geração solar municipal, criando uma **métrica de eficiência** baseada na relação entre a **geração (MWh)** e a **capacidade instalada (kW)**.  
 A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme sua eficiência, permitindo identificar quais devem ser **prioritárias para investimento em energia solar**.
+
 ---
 
 ## 📈 Métricas Calculadas
