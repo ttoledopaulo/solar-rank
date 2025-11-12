@@ -21,8 +21,8 @@ Análise de eficiência da geração solar municipal com foco em **priorização
 
 O **Solar Rank** tem como objetivo processar e analisar dados de geração solar municipal, criando uma **métrica de eficiência** baseada na relação entre a **geração (MWh)** e a **capacidade instalada (kW)**.  
 A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme sua eficiência, permitindo identificar quais devem ser **prioritárias para investimento em energia solar**.
-
 ---
+
 ## 📈 Métricas Calculadas
 
 - **Eficiência** = `geracao_solar_mwh / capacidade_kw`  
@@ -30,24 +30,6 @@ A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme
   - Eficiência > 0.12 → `Prioritária`  
   - Caso contrário → `Não prioritária`
 
----
-
-## 📊 Resultados Esperados
-
-- Geração de **ranking das 3 cidades mais eficientes**  
-- Visualização gráfica das cidades com melhor desempenho  
-- Tabela consolidada com classificação de priorização  
-
----
-
-
-## ⚙️ Tecnologias Utilizadas
-
-- 🐍 **Python** — linguagem principal do projeto  
-- 🧮 **Pandas e Numpy** — tratamento, cálculo e manipulação dos dados  
-- 📊 **Seaborn** — criação de gráficos e visualizações de desempenho  
-- 🧠 **Prefect** — orquestração dos fluxos de análise (pipelines)  
-- 📁 **CSV** — formato da base de dados de entrada (`energia_solar.csv`)
 ---
 
 ## 🚀 Como Usar
