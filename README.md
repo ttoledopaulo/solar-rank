@@ -23,17 +23,6 @@ O **Solar Rank** tem como objetivo processar e analisar dados de geração solar
 A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme sua eficiência, permitindo identificar quais devem ser **prioritárias para investimento em energia solar**.
 
 ---
-
-## ⚙️ Tecnologias Utilizadas
-
-- 🐍 **Python 3.10+** — linguagem principal do projeto  
-- 🧮 **Pandas** — tratamento, cálculo e manipulação dos dados  
-- 📊 **Seaborn** — criação de gráficos e visualizações de desempenho  
-- 🧠 **Prefect** — orquestração dos fluxos de análise (pipelines)  
-- 📁 **CSV** — formato da base de dados de entrada (`energia_solar.csv`)
-
----
-
 ## 📈 Métricas Calculadas
 
 - **Eficiência** = `geracao_solar_mwh / capacidade_kw`  
@@ -50,3 +39,34 @@ A partir dessa métrica, as cidades são **ranqueadas e classificadas** conforme
 - Tabela consolidada com classificação de priorização  
 
 ---
+
+
+## ⚙️ Tecnologias Utilizadas
+
+- 🐍 **Python** — linguagem principal do projeto  
+- 🧮 **Pandas e Numpy** — tratamento, cálculo e manipulação dos dados  
+- 📊 **Seaborn** — criação de gráficos e visualizações de desempenho  
+- 🧠 **Prefect** — orquestração dos fluxos de análise (pipelines)  
+- 📁 **CSV** — formato da base de dados de entrada (`energia_solar.csv`)
+---
+
+## 🚀 Como Usar
+
+### 📋 Pré-requisitos
+
+Certifique-se de ter o Python 3.10+ instalado e instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Executando o Projeto
+
+#### 1️⃣ **Executar o Pipeline de Dados**
+```bash
+python -m src.orchestration.pipeline
+```
+
+#### 2️⃣ **Gerar Visualizações**
+```bash
+python -m src.graficos
+```
