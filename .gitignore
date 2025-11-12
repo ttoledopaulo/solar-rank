@@ -3,7 +3,7 @@
 # ===========================================
 
 # --- Diretórios de dados (não versionar arquivos brutos/processados)
-data/raw/
+data/raw/energia_solar.csv
 data/staging/
 data/processed/
 output/
