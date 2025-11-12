@@ -1,0 +1,90 @@
+# ===========================================
+# 📦 GITIGNORE — Projeto de Engenharia de Dados (Python + Prefect)
+# ===========================================
+
+# --- Diretórios de dados (não versionar arquivos brutos/processados)
+data/raw/
+data/staging/
+data/processed/
+output/
+
+# --- Logs e artefatos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.pid
+
+# --- Ambientes virtuais e dependências locais
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Configurações específicas de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Arquivos gerados por Prefect
+.prefect/
+*.orion/
+*.prefect.yaml
+*.deployment.yaml
+*deployment.yaml
+
+# --- Arquivos de cache de pacotes
+pip-wheel-metadata/
+pip-log.txt
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Configurações de sistema / OS
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+Icon?
+
+# --- Arquivos de testes
+.coverage
+htmlcov/
+pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+
+# --- Credenciais e chaves
+*.env
+.env.*
+secrets/
+credentials.json
+token.json
+*.key
+*.pem
+
+# --- Notebooks temporários
+.ipynb_checkpoints/
+*.ipynb_out.ipynb
+
+# --- Relatórios exportados
+reports/
+*.csv
+*.xlsx
+*.parquet
+*.json
+
+# --- VSCode Launch Configs
+.vscode/launch.json
+
+# --- Cache Prefect Flow Runs
+flow_runs/
