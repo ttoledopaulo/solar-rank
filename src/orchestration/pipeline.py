@@ -7,7 +7,8 @@ from src.etl.transform import transform_data
 def solar_rank_pipeline():
     raw_dataframe = extract_data()
     transformed_data = transform_data(df=raw_dataframe)
-    save_processed(transformed_data)
+    arquivo_processed = save_processed(transformed_data)
+    return arquivo_processed
 
-if __name__ in "__main__":
+if __name__ == "__main__":
     solar_rank_pipeline()
