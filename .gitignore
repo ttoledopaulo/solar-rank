@@ -77,7 +77,6 @@ token.json
 
 # --- Relatórios exportados
 reports/
-*.csv
 *.xlsx
 *.parquet
 *.json
